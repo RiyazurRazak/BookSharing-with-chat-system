@@ -1,0 +1,7 @@
+.singlecard__book_title{
+    color: teal !important;
+    font-weight: 700;
+}
+.MuiCardMedia-media{
+    height: 300px;
+}

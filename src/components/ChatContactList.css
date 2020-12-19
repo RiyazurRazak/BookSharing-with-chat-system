@@ -1,0 +1,52 @@
+.chatcontactlist{
+    height: 170px;
+    display: flex;
+    border-bottom: 1px solid #808080;
+    cursor: pointer;
+}
+.chatcontactlist__avatar{
+    pointer-events: none;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.chatcontactlist__outline{
+    position: absolute;
+    top: -5px;
+    left: 0;
+    right: -5px;
+    bottom: -5px;
+    border: 8px solid white;
+    border-left: none;
+    border-radius: 20%;
+}
+.chatcontactlist__name__container{
+    width: 50%;
+    overflow: scroll;
+}
+  .chatcontactlist__name{
+      margin-left: 20px;
+      overflow-wrap: break-word;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      font-weight: 900;
+      font-size: 24px;
+      color: #FDF585;
+  }
+
+  @media only screen and (max-width: 960px){
+    .chatcontactlist__name{
+        font-size: 22px;
+    }
+}
+
+
+@media only screen and (max-width: 540px){
+    .chatcontactlist__name{
+        font-size: 20px;
+    }
+}

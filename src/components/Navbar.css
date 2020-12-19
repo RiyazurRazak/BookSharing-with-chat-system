@@ -1,0 +1,67 @@
+.nav__menu{
+    margin-right: 50px !important;
+    z-index: 9999;
+}
+.nav__menu ul li a{
+    font-weight: 700;
+    color: #ffffff !important;
+    font-family: 'Caveat', cursive;
+}
+.nav__menu-dropdown ul li a{
+    color: #000000 !important;
+}
+.nav__menu_icon{
+    display: none;
+    visibility: hidden;
+}
+.icon{
+    color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .navbar{
+        display: none;
+        visibility: hidden;
+    }
+    .nav__menu_icon{
+        display: flex;
+        visibility: visible;
+        position: fixed;
+        top: 30px;
+        margin-left: 30px;
+        color: #ffffff !important;
+        background-color: black !important;
+        font-size: 25px !important;
+        padding: 5px;
+        z-index: 999;
+
+    }
+    .nav__drawer{
+        height: 100%;
+        width: 230px;
+        padding-top: 20px;
+        background-image: url("../assets//nav-bg.png");
+        z-index: 9999;
+        color: #121212 !important;
+        font-weight: 900 !important;
+        padding-left: 30px;
+    }
+    .nav__drawer_icon{
+       color: #000000;
+       cursor: pointer;
+    }
+    .nav__drawer_text{
+        color: #121212 !important;
+        font-weight: 900 !important;
+        text-decoration: none !important;
+    }
+    .link{
+        text-decoration: dotted !important;
+        color: #121212 !important;
+    }
+   
+    .nav-inner-list{
+        padding-left: 30px !important;
+    }
+  }

@@ -1,0 +1,132 @@
+.chatcontainer{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 90vh;
+}
+.chat-mobile__profile{
+    display: none;
+    position: -ms-page;
+}
+.chat__container{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.chatcontainer__chats{
+    position: absolute;
+    top: 0px;
+    height: 80vh;
+    overflow: scroll;
+    left: 0;
+    right: 0;
+}
+.chat__container__msg-container{
+    padding: 10px;
+    background-color: #00d788bd;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    width: fit-content;
+    max-width: 50%;
+    overflow-wrap: break-word;
+    margin:20px 10px;
+    color: #ffffff;
+}
+
+.current__user{
+    margin-left: auto;
+    background-color: #fd7b6dd7 !important;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0px;
+}
+.chat__container__text{
+    margin-bottom: 0 !important;
+}
+.chat__container__timestamp{
+    font-size: 10px;
+    text-align: right;
+    margin-top: 1px !important;
+    margin-bottom: 0 !important;
+    color: #f5eded;
+}
+.chatcontainer__input__container{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 0;
+    position:absolute;
+    left:0px; 
+    right:0px;
+    width: 90%;
+    bottom: 5px;
+    background-image: inherit;
+}
+.chatContainer__input{
+    background-color: #725990 !important;
+    border-radius: 20px !important;
+    width: 90%;
+    padding: 10px !important;
+}
+
+.chatContainer__input > .MuiInput-underline:before{
+    border-bottom: none !important;
+}
+.chatContainer__input > .MuiInput-underline:after{
+    border-bottom: none !important;
+}
+.send__icon_cont{
+    background-color: #725990 !important;
+    margin-left: 10px !important;
+}
+.send__icon{
+ 
+    color: #ffffff !important;
+}
+
+@media only screen and (max-width: 1300px){
+    .chatContainer__input{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 960px){
+.chatcontainer{
+    height: 100vh;
+    background-color: #330033;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23404' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23505'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+}
+.chatcontainer__input__container{
+    position: fixed;
+}
+.chatcontainer__chats{
+    top: 100px;
+    height: 75vh;
+}
+
+.chatContainer__input{
+    width: 80%;
+}
+.chat-mobile__profile{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    background-color: mediumaquamarine;
+}
+.chat-mobile__profile >img{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   margin: auto 10px !important;
+}
+.chat-mobile__profile >p{
+    margin: auto 0px !important;
+    color: #000000 !important;
+    font-weight: 700;
+}
+}
+
+@media only screen and (max-width: 560px){
+    .chatContainer__input{
+        width: 70%;
+    }
+}

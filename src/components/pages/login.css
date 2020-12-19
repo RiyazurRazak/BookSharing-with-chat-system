@@ -1,0 +1,25 @@
+.login__page{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.login__page__row{
+    margin-bottom: 40px;
+    text-align: center !important;
+}
+.login__page__img{
+    height: 150px;
+    text-align: center;
+}
+.login__link{
+    color: #6C63FF !important;
+    text-align:center
+}
+.login__button{
+    text-align: center
+}
+.login__dialog .MuiPaper-root{
+    background: red !important;
+}

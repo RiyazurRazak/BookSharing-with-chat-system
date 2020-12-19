@@ -1,0 +1,40 @@
+.heroContent__container{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 59%, rgba(0, 0, 0, 0.65) 100%),url("../assets//hero_image.jpg");
+    height: 600px;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    text-align:left;
+}
+.heroContent__content{
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    width: 50%;
+    font-weight: 900;
+    color: white !important;
+    margin-bottom: 40px;
+}
+.heroContent__heading{
+    font-size: 40px;
+}
+
+
+@media only screen and (max-width: 600px){
+    .heroContent__container{
+     background-position: center;
+    }
+    .heroContent__content{
+        width: 80%;
+        left: 0;
+        padding: 20px;
+    }
+  
+    
+}
+@media only screen and (max-width: 300px){
+
+    .heroContent__heading{
+        font-size: 20px;
+    }
+}

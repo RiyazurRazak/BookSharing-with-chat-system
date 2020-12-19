@@ -1,0 +1,53 @@
+.dashboard{
+    background-color: #f08080;
+    height: 100%;
+}
+.dashboard__container{
+    background-color: lightcoral;
+    height: 100%;
+}
+.dashboard__list{
+    min-height: 100vh !important;
+    border-right: 1px solid #7a787886;
+    overflow-wrap: break-word;
+    border-bottom: 1px dashed #7a78787e;
+}
+.dashboard__username{
+    text-align: center;
+    color: #ffffff !important;
+}
+.dasboard-inner{
+    padding: 30px;
+}
+.Mui-selected{
+    background-color: #dfdfdf75 !important;
+}
+.dashboard__icon{
+    color: #050505 !important;
+}
+.dashboard__text{
+    color: #080808!important;
+}
+.dashboard__divider{
+    background-color: #817c7c7e !important;
+}
+.dashboard__link{
+    text-decoration: none !important;
+    background: none !important;
+}
+.dashboard__footer{
+    margin-top: 80px;
+}
+.MuiInput-underline:after{
+    border-bottom: none !important;
+}
+.MuiInputLabel-root.Mui-focused{
+    color: white !important;
+}
+
+@media only screen and (max-width: 950px){
+    .dashboard__list{
+        min-height: auto !important;
+    }
+
+}

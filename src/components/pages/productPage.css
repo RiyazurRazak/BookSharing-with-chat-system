@@ -1,0 +1,47 @@
+.books{
+    background-color: #FDC01C;
+    width: 100%;
+    height: 100%;
+}
+.books__hero__content{
+    margin: 40px;
+    height: 500px;
+    background-color:#FFEBC1 ;
+    border-radius: 40px;
+}
+.books__hero_heading{
+    text-align: center !important;
+    font-weight: 900;
+    margin: 20px 0;
+    padding-top: 30px;
+    color: #000000 !important;
+}
+.books__product__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 40px;
+    margin-top: -400px;
+}
+
+
+
+@media only screen and (max-width: 850px){
+    .books__filter__container{
+        margin-top: 20px;
+    }
+    .books__product__container{
+        margin-top: -350px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .books__hero__content{
+        margin: 40px 10px;
+    }
+    .books__product__container{
+        margin:0;
+        margin-top: -350px;
+    }
+}
+ 

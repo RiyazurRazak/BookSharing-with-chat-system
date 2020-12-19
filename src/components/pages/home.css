@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+a{
+    text-decoration: none !important;
+}
+.home__heading{
+    margin-left: 20px;
+    color: #ffffff !important;
+    font-weight: 900;
+    padding: 20px;
+    font-family: 'Niconne', cursive;
+}
+.home__heading-black{
+    margin-left: 20px;
+    color: #0e0d0d !important;
+    font-weight: 900;
+    padding: 20px;
+    font-family: 'Niconne', cursive;
+}
+.home__slider{
+    padding-bottom: 30px !important;
+}
+.slide-nav{
+    background-color: #fcfcfc !important;
+    padding: 10px !important;
+}
+.home__slidericon{
+    width: 40px !important;
+    height: 40px !important;
+    background-color: #000000 !important;
+}
+.home__trending__books{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 59%, rgba(0, 0, 0, 0.65) 100%), url("../../assets//home_bg-1.jpg");
+}
+.home__stationary{
+    background-image: url("../../assets/home_bg-2.jpg");
+    background-attachment: fixed;
+}
+.home__engineering{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 59%, rgba(0, 0, 0, 0.65) 100%), url("../../assets/home_bg-sparkle.jpg");
+    background-attachment: fixed;
+}
+.home__best__donars_container{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+.home__best__donars__avatar{
+    padding: 0 30px;
+    height: 350px;
+    border-top-left-radius: 50%;
+    pointer-events: none;
+}
+.home__best__donars > h3{
+     text-align: center;
+     color: #ffffff !important;
+     font-weight: 800;
+}
+.home__total-data{
+    background: linear-gradient(to bottom, rgba(238, 236, 236, 0.801) 0%, rgba(253, 253, 253, 0.932) 59%, rgba(236, 233, 233, 0.705) 100%), url("../../assets/home__bg_data.jpg");
+    background-attachment: fixed; 
+}
+.home__data__illustration{
+    height: 300px;
+    width: 100%;
+    margin-top: 20px;
+}
+.home__sharing_hero{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 59%, rgba(0, 0, 0, 0.65) 100%), url("../../assets/home__bg-3.jpg");
+    height:700px;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    
+}
+.home__sharing_hero__inner{
+    width: 50%;
+    margin: auto 0;
+    margin-left: 40px;
+    color: #ffffff !important;
+    font-weight: 900;
+}
+.home__sharing_hero__inner >h1 ,.home__sharing_hero__inner >h6 {
+    color: #ffffff;
+    font-weight: 800;
+}
+.home__register_btn{
+    color: #ffffff !important;
+    font-weight: 900 !important;
+    font-size: 20px !important;
+    
+}
+
+@media only screen and (max-width: 600px){
+
+    .home__engineering__inner >a div{
+        width: 250px !important;
+    }
+
+}
+
+@media only screen and (max-width: 1100px){
+    .home__best__donars_container{
+        flex-flow: column;
+        align-items: center;
+    }
+}
