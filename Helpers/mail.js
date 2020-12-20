@@ -5,10 +5,10 @@ const dotenv = require('dotenv').config()
 
 
 
-const nodemailerHandller = (askedData)=>{
+const nodemailerHandller = (askedData, askedby)=>{
 
     const recieverUserName = askedData[0].uploadby
-    const senderUserName = askedData[0].askedby
+    const senderUserName = askedby
 
 
     User.find({"username": {$in:[recieverUserName, senderUserName]}}, (err , docs)=>{

@@ -343,8 +343,8 @@ router.patch("/bookasked" , (req,res)=>{
             else res.send({isAsked: true})
         }))
 
-        Books.find({_id:id}, "askedby , uploadby" ,(err, data)=>{
-            nodemailerHandller(data)
+        Books.find({_id:id}, " uploadby " ,(err, data)=>{
+            nodemailerHandller(data , askedby )
         })
        
 })
@@ -361,8 +361,8 @@ router.patch("/askstationary" , (req,res)=>{
             else res.send({isAsked: true})
         }))
 
-        Stationary.find({_id:id}, "askedby , uploadby" ,(err, data)=>{
-            nodemailerHandller(data)
+        Stationary.find({_id:id}, " uploadby " ,(err, data)=>{
+            nodemailerHandller(data, askedby)
         })
 })
 
